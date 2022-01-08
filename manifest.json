@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+   
+    "name": "Spotify Fullscreen Lyrics",
+    "version": "0.1.0",
+    "description": "Make webplayer spotify full screen without the sidebar.",
+   
+    "content_scripts": [{
+      "css": ["style.css"],
+      "matches": ["https://*.spotify.com/*"]
+    }],
+    
+    "action" : {
+        "default_icon" : "fullscreen.png",
+        "default_title": "Spotify Fullscreen Mode"
+    }
+  } 
